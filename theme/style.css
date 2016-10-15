@@ -924,15 +924,15 @@ ul.nav-menu li:hover > ul,
 	background-image: url(images/search-icon-white.png);
 	background-position: 5px center;
 	background-repeat: no-repeat;
-	background-size: 18px;
+	background-size: 17px;
 	border: none;
 	color: #333;
 	cursor: pointer;
 	font-size: 0.7em;
-	height: 18px;
+	height: 23px;
 	margin: 1px 0;
-	opacity: .5;
-	padding: 0 0 0 34px;
+	opacity: .3;
+	padding: 2px 2px 2px 34px;
 	position: relative;
 	-webkit-transition: width 400ms ease, background 400ms ease;
 	transition:         width 400ms ease, background 400ms ease;
@@ -944,9 +944,9 @@ ul.nav-menu li:hover > ul,
 	background-image: url(images/search-icon.png);
 	border: 1px solid #eee;
 	cursor: text;
-	opacity: .9;
+	opacity: 1;
 	outline: 0;
-	width: 300px;
+	width: 200px;
 }
 
 .site-header-social {
