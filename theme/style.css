@@ -4,11 +4,9 @@
  Description:    A theme based off of WordPress's Twenty Thirteen theme
  Author:         Gus Perez
  Author URI:     http://gusperez.com
- Template:       twentythirteen
+ Template:       Limpio
  Version:        1.0.0
 */
-
-/*@import url("../twentythirteen/style.css");*/
 
 /**
  * Table of Contents:
@@ -2594,6 +2592,12 @@ footer.entry-meta {
 }
 .infinite-loader {
 	background-color: #fff !important;
+}
+
+/* Hides navigation links and site footer when infinite scroll is active */
+.infinite-scroll #navigation,
+.infinite-scroll.neverending #footer {
+    display: none;
 }
 
 /**

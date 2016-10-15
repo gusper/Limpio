@@ -39,18 +39,25 @@
 				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
 					<h1 class="site-title"><?php bloginfo( 'name' ); ?></h1>
 				</a>
+
+<?php 
+	$template = str_replace( '%2F', '/', rawurlencode( get_stylesheet() ) );
+    $theme_root_uri = get_theme_root_uri( $template );
+    $template_dir_uri = "$theme_root_uri/$template";
+?>
+
 				<p id="social-links" class="site-header-social">
 					<a href="http://twitter.com/gusper">
-					<img class="social-icon" src="wp-content/themes/limpio/images/twitter-48-black.png"/>
+					<img class="social-icon" src="<?php echo $template_dir_uri ?>/images/twitter-48-black.png"/>
 					</a>
 					<a href="https://www.linkedin.com/in/gusperez">
-					<img class="social-icon" src="wp-content/themes/limpio/images/linkedin-48-black.png"/>
+					<img class="social-icon" src="<?php echo $template_dir_uri ?>/images/linkedin-48-black.png"/>
 					</a>
 					<a href="https://github.com/gusper">
-					<img class="social-icon" src="wp-content/themes/limpio/images/github-48-black.png"/>
+					<img class="social-icon" src="<?php echo $template_dir_uri ?>/images/github-48-black.png"/>
 					</a>
 					<a href="https://www.flickr.com/photos/gusperez">
-					<img class="social-icon" src="wp-content/themes/limpio/images/flickr-48-black.png"/>
+					<img class="social-icon" src="<?php echo $template_dir_uri ?>/images/flickr-48-black.png"/>
 					</a>
 				</p>
 			</div>
