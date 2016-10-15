@@ -931,6 +931,7 @@ ul.nav-menu li:hover > ul,
 	font-size: 0.8em;
 	height: 28px;
 	margin: 1px 0;
+	opacity: .5;
 	padding: 0 0 0 34px;
 	position: relative;
 	-webkit-transition: width 400ms ease, background 400ms ease;
@@ -941,15 +942,26 @@ ul.nav-menu li:hover > ul,
 .site-header .search-field:focus {
 	background-color: #fff;
 	background-image: url(images/search-icon.png);
-	border: 2px solid #eee;
+	border: 1px solid #eee;
 	cursor: text;
+	opacity: .9;
 	outline: 0;
 	width: 120px;
 }
 
 .site-header-social {
     float: right;
-	margin: 10px 0 -3px;
+	margin: 10px 0 5px;
+	cursor: pointer;
+}
+
+.social-icon {
+	opacity: .3;
+	width: 28px;
+}
+
+.social-icon:hover {
+	opacity: 1;
 }
 
 /**
