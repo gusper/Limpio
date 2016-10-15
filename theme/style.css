@@ -2588,6 +2588,10 @@ footer.entry-meta {
 	font-family: Rosario, "Source Sans Pro", Helvetica, sans-serif;
 }
 
+/* hack to override infinite-scroll background color */
+#infinite-handle {
+	background-color: #fff !important;
+}
 
 /**
  * Microsoft Ads
