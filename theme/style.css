@@ -955,9 +955,14 @@ ul.nav-menu li:hover > ul,
 	cursor: pointer;
 }
 
+.site-header-social a:hover {
+	text-decoration: none;
+}
+
 .social-icon {
 	opacity: .3;
 	width: 28px;
+	padding: 0;
 }
 
 .social-icon:hover {
