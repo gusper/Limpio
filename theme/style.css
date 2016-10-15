@@ -1866,7 +1866,7 @@ footer.entry-meta {
 }
 
 .paging-navigation {
-	/*background-color: #e8e5ce;*/
+	background-color: #fff;
 	padding: 40px 0;
 }
 
@@ -1891,7 +1891,7 @@ footer.entry-meta {
 }
 
 .paging-navigation .meta-nav {
-	background-color: #e63f2a;
+	background-color: #555;
 	border-radius: 50%;
 	color: #fff;
 	display: inline-block;
@@ -1912,7 +1912,7 @@ footer.entry-meta {
 }
 
 .paging-navigation a:hover .meta-nav {
-	background-color: #ea9629;
+	background-color: #111;
 	text-decoration: none;
 }
 
