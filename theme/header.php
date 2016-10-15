@@ -40,10 +40,18 @@
 					<h1 class="site-title"><?php bloginfo( 'name' ); ?></h1>
 				</a>
 				<p id="social-links" class="site-header-social">
+					<a href="http://twitter.com/gusper">
 					<img class="social-icon" src="wp-content/themes/limpio/images/twitter-48-black.png"/>
+					</a>
+					<a href="https://www.linkedin.com/in/gusperez">
 					<img class="social-icon" src="wp-content/themes/limpio/images/linkedin-48-black.png"/>
+					</a>
+					<a href="https://github.com/gusper">
 					<img class="social-icon" src="wp-content/themes/limpio/images/github-48-black.png"/>
+					</a>
+					<a href="https://www.flickr.com/photos/gusperez">
 					<img class="social-icon" src="wp-content/themes/limpio/images/flickr-48-black.png"/>
+					</a>
 				</p>
 			</div>
 			<div id="navbar" class="navbar">
