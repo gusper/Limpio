@@ -2592,6 +2592,9 @@ footer.entry-meta {
 #infinite-handle {
 	background-color: #fff !important;
 }
+.infinite-loader {
+	background-color: #fff !important;
+}
 
 /**
  * Microsoft Ads
