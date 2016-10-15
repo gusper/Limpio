@@ -41,9 +41,8 @@
 				</a>
 				<p id="social-links" class="site-header-social">
 					<img class="social-icon" src="wp-content/themes/limpio/images/twitter-48-black.png"/>
-					<img class="social-icon" src="wp-content/themes/limpio/images/github-48-black.png"/>
 					<img class="social-icon" src="wp-content/themes/limpio/images/linkedin-48-black.png"/>
-					<img class="social-icon" src="wp-content/themes/limpio/images/stackoverflow-48-black.png"/>
+					<img class="social-icon" src="wp-content/themes/limpio/images/github-48-black.png"/>
 					<img class="social-icon" src="wp-content/themes/limpio/images/flickr-48-black.png"/>
 				</p>
 			</div>
