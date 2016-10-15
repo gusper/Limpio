@@ -35,18 +35,18 @@
 <body <?php body_class(); ?>>
 	<div id="page" class="hfeed site">
 		<header id="masthead" class="site-header" role="banner">
-			<a class="home-link" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
-				<h1 class="site-title"><?php bloginfo( 'name' ); ?></h1>
-			</a>
-
-            <div id="social-links" class="site-header-social">
-                <img src="wp-content/themes/limpio/images/twitter-48-black.png" width="32"/>
-                <img src="wp-content/themes/limpio/images/github-48-black.png" width="32"/>
-                <img src="wp-content/themes/limpio/images/linkedin-48-black.png" width="32"/>
-                <img src="wp-content/themes/limpio/images/stackoverflow-48-black.png" width="32"/>
-                <img src="wp-content/themes/limpio/images/flickr-48-black.png" width="32"/>
-            </div>
-
+			<div class="home-link">
+				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
+					<h1 class="site-title"><?php bloginfo( 'name' ); ?></h1>
+				</a>
+				<p id="social-links" class="site-header-social">
+					<img src="wp-content/themes/limpio/images/twitter-48-black.png" width="32"/>
+					<img src="wp-content/themes/limpio/images/github-48-black.png" width="32"/>
+					<img src="wp-content/themes/limpio/images/linkedin-48-black.png" width="32"/>
+					<img src="wp-content/themes/limpio/images/stackoverflow-48-black.png" width="32"/>
+					<img src="wp-content/themes/limpio/images/flickr-48-black.png" width="32"/>
+				</p>
+			</div>
 			<div id="navbar" class="navbar">
 				<nav id="site-navigation" class="navigation main-navigation" role="navigation">
 					<h3 class="menu-toggle"><?php _e( 'Menu', 'twentythirteen' ); ?></h3>

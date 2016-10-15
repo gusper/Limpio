@@ -809,6 +809,7 @@ img.wp-smiley,
 	line-height: 1;
 	margin: 0;
 	padding: 15px 0 5px;
+	float: left;
 }
 
 .site-description {
@@ -948,6 +949,7 @@ ul.nav-menu li:hover > ul,
 
 .site-header-social {
     float: right;
+	margin: 10px 0 -3px;
 }
 
 /**
