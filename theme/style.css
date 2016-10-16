@@ -2831,7 +2831,7 @@ footer.entry-meta {
 	.entry-thumbnail img {
 		float: right;
 		display: block;
-		margin: 10px 5px;
+		margin: -20px 5px 5px 5px;
 		max-width: 20%;
 	}
 
@@ -2934,13 +2934,13 @@ footer.entry-meta {
 	.format-image .entry-title,
 	.format-gallery .entry-title,
 	.format-video .entry-title {
-		font-size: 1.2em;
+		font-size: 1.0em;
 		font-weight: bold;
 	}
 
 	.format-quote blockquote,
 	.format-status .entry-content {
-		font-size: 1.2em;
+		font-size: 1.0em;
 	}
 
 	.format-quote blockquote small,
