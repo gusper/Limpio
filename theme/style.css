@@ -994,7 +994,6 @@ ul.nav-menu li:hover > ul,
 	padding: 0 376px 0 60px;
 }
 
-
 /**
  * 5.1 Entry Header
  * ----------------------------------------------------------------------------
@@ -1008,13 +1007,20 @@ ul.nav-menu li:hover > ul,
 	display: block;
 	margin: 0 auto 10px;
 	float: right;
+	max-width: 175px;
+}
+
+.entry-headline {
+	float: left;
+	margin-bottom: 5px;
 }
 
 .entry-header {
-	margin-bottom: 7px;
+	clear: left;
 }
 
 .entry-title {
+	float: left;
 	font-family: Muli, "Lato", "Source Sans Pro", Helvetica, sans-serif;
 	font-size: 1.0em;
 	font-weight: bold;
@@ -1111,7 +1117,7 @@ ul.nav-menu li:hover > ul,
 	-webkit-hyphens: auto;
 	-moz-hyphens:    auto;
 	-ms-hyphens:     auto;
-	hyphens:         auto;
+	clear: left;
 	word-wrap: break-word;
 	font-size: 0.9em;
 }
