@@ -908,7 +908,7 @@ ul.nav-menu li:hover > ul,
 /* Navbar */
 .navbar {
 	background-color: inherit;
-	margin: 0 auto 30px;
+	margin: 0 auto 10px;
 	width: 100%;
 	border-bottom: solid 1px #eaeaea;
 	max-width: 2560px;
@@ -2000,7 +2000,6 @@ footer.entry-meta {
 	display: none;
 }
 
-
 /**
  * 5.9 Archives
  * ----------------------------------------------------------------------------
@@ -2043,8 +2042,8 @@ footer.entry-meta {
 }
 
 .page-title {
-	font: 300 normal 30px "Segoe UI", Helvetica, sans-serif;
-	margin: 0;
+	font: 400 italic 25px "Segoe UI", Muli, Helvetica, sans-serif;
+	margin: 0 0 15px;
 	padding: 0;
 	width: 100%;
 }
@@ -2058,10 +2057,8 @@ footer.entry-meta {
 
 .sidebar .page-content {
 	margin: 0 auto;
-/*	max-width: 1040px;
-*/	padding: 40px 376px 40px 60px;
+	padding: 40px 376px 40px 60px;
 }
-
 
 /**
  * 5.11 404
