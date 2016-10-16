@@ -756,6 +756,9 @@ img.wp-smiley,
 
 .site-main {
 	position: relative;
+    max-width: 700px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .site-main .sidebar-container {
@@ -2035,13 +2038,14 @@ footer.entry-meta {
 
 .page-header {
 	background-color: #fff;
+	margin: 0;
+	padding: 0;
 }
 
 .page-title {
-	font: 300 normal 30px Domine, Helvetica, sans-serif;
-	margin: 0 auto;
-/*	max-width: 1040px;
-*/	padding: 30px 0;
+	font: 300 normal 30px "Segoe UI", Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
 	width: 100%;
 }
 
@@ -2663,8 +2667,8 @@ footer.entry-meta {
 	.post-navigation .nav-links,
 	.sidebar .site-info,
 	.site-footer .widget-area {
-		padding-left: 20px;
-		padding-right: 20px;
+		/*padding-left: 20px;
+		padding-right: 20px;*/
 	}
 
 	.error404 .page-title {
