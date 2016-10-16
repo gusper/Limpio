@@ -1005,9 +1005,9 @@ ul.nav-menu li:hover > ul,
 
 .entry-thumbnail img {
 	display: block;
-	margin: 0 30px 30px;
+	margin: -20px 30px 30px;
 	float: right;
-	max-width: 125px;
+	max-width: 100px;
 }
 
 .entry-headline {
