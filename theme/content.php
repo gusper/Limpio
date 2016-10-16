@@ -13,10 +13,17 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
 		<?php if ( has_post_thumbnail() && ! post_password_required() ) : ?>
+			<?php if ( is_single() ) :
+				$thumbnail_size = '150px';
+			else : 
+				$thumbnail_size = '75px';
+			endif; ?>
+
+			<?php endif; // is_single() ?>
+
 		<div class="entry-thumbnail">
-			<?php the_post_thumbnail($size='175px'); ?>
+			<?php the_post_thumbnail($size=$thumbnail_size); ?>
 		</div>
-		<?php endif; ?>
 
 		<div class="entry-headline">
 			<?php if ( is_single() ) : ?>
