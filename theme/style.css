@@ -1013,6 +1013,7 @@ ul.nav-menu li:hover > ul,
 .entry-headline {
 	float: left;
 	margin-bottom: 5px;
+	width: 70%;
 }
 
 .entry-header {
@@ -2825,6 +2826,28 @@ footer.entry-meta {
 	.sidebar .paging-navigation .nav-links {
 		padding-left: 20px;
 		padding-right: 20px;
+	}
+
+	.entry-thumbnail img {
+		float: right;
+		display: block;
+		margin: 10px 5px;
+		max-width: 20%;
+	}
+
+	.entry-headline {
+		float: left;
+		margin-bottom: 5px;
+		max-width: 70%;
+	}
+
+	.entry-header {
+		clear: left;
+		width: 100%;
+	}
+
+	.entry-meta {
+		margin: 0 auto;
 	}
 
 	#content .format-status .entry-content,
