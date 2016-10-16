@@ -986,10 +986,15 @@ ul.nav-menu li:hover > ul,
     width: 100%;
 }
 
+.entry-summary {
+	clear: left;
+}
+
 .sidebar .entry-header,
 .sidebar .entry-content,
 .sidebar .entry-summary,
 .sidebar .entry-meta {
+	clear: both;
 	max-width: 1040px;
 	padding: 0 376px 0 60px;
 }
