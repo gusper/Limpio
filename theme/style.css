@@ -1007,7 +1007,7 @@ ul.nav-menu li:hover > ul,
 	display: block;
 	margin: 0 30px 30px;
 	float: right;
-	max-width: 175px;
+	max-width: 125px;
 }
 
 .entry-headline {
