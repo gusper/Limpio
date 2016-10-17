@@ -926,6 +926,8 @@ ul.nav-menu li:hover > ul,
 	position: absolute;
 	right: 0;
 	top: -2px;
+	padding-right: 20px;
+	padding-left: 20px;
 }
 
 .site-header .search-field {
@@ -993,7 +995,6 @@ ul.nav-menu li:hover > ul,
 .entry-meta {
 	font-family: "Segoe UI", Muli, "Source Sans Pro", Helvetica, sans-serif;
     margin: 0 auto;
-    /*max-width: 700px;*/
     width: 100%;
 	padding-left: 20px;
 	padding-right: 20px;
@@ -1266,6 +1267,13 @@ footer.entry-meta {
 	border-radius: 0;
 }
 
+/**
+ * Related posts
+ */
+
+.jp-relatedposts-post-img {
+    height: 100%;
+}
 
 /**
  * 5.4 Galleries
@@ -1774,7 +1782,6 @@ footer.entry-meta {
 	clear: none;
 	color: inherit;
 	float: right;
-	/*max-width: 700px;*/
 	padding: 9px 0 0;
 	text-align: right;
 }
@@ -1858,7 +1865,6 @@ footer.entry-meta {
 
 .attachment .entry-description {
 	margin: 20px auto 0;
-	/*max-width: 700px;*/
 }
 
 .attachment .entry-caption p:last-child,
@@ -1900,7 +1906,7 @@ footer.entry-meta {
 
 .paging-navigation .nav-links {
 	margin: 0 auto;
-	/*max-width: 700px;*/
+	max-width: 700px;
 	width: 100%;
 }
 
@@ -1976,7 +1982,6 @@ footer.entry-meta {
 
 .author-info {
 	margin: 0 auto;
-	/*max-width: 700px;*/
 	padding: 30px 0 10px;
 	text-align: left; /* gallery & video post formats */
 	width: 100%;
@@ -2065,7 +2070,6 @@ footer.entry-meta {
 
 .page-content {
 	margin: 0 auto;
-	/*max-width: 700px;*/
 	padding: 40px 0;
 	width: 100%;
 }
@@ -2129,7 +2133,6 @@ footer.entry-meta {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	/*max-width: 700px;*/
 	width: 100%;
 }
 
@@ -2368,7 +2371,6 @@ footer.entry-meta {
 	font-style: italic;
 	font-weight: 300;
 	margin: 0 auto;
-	/*max-width: 700px;*/
 	padding: 20px 0 30px;
 	width: 100%;
 }
@@ -2396,7 +2398,6 @@ footer.entry-meta {
 
 .site-main .mu_register {
 	margin: 0 auto;
-	/*max-width: 700px;*/
 	width: 100%;
 }
 
@@ -2540,9 +2541,9 @@ footer.entry-meta {
  */
 
 .site-footer {
-	background-color: #fafafa;
-	color: #999;
-	font-size: 1em;
+	background-color: #fff;
+	color: #888;
+	font-size: 0.7em;
 	text-align: center;
 }
 
@@ -2602,7 +2603,7 @@ footer.entry-meta {
 .site-info {
 	margin: 0 auto;
 	max-width: 1040px;
-	padding: 30px 0;
+	padding: 10px 0 1px;
 	width: 100%;
 }
 
@@ -2663,7 +2664,6 @@ footer.entry-meta {
 
 	.error404 .page-header {
 		margin-left: auto;
-		/*max-width: 700px;*/
 		width: 100%;
 	}
 
@@ -2718,17 +2718,8 @@ footer.entry-meta {
 	.sidebar .featured-gallery,
 	.sidebar .post-navigation .nav-links,
 	.author.sidebar .author-info {
-		/*max-width: 700px;*/
 		padding-left: 0;
 		padding-right: 0;
-	}
-
-	.sidebar .site-info,
-	.search.sidebar .page-content,
-	.blog.sidebar .page-content,
-	.attachment .entry-header,
-	.sidebar .comments-title {
-		/*max-width: 700px;*/
 	}
 
 	.sidebar .archive-meta,
@@ -2782,7 +2773,6 @@ footer.entry-meta {
 	.site-main .sidebar-container {
 		height: auto;
 		margin: 0 auto;
-		/*max-width: 700px;*/
 		position: relative;
 		top: 20px;
 	}
@@ -2813,7 +2803,6 @@ footer.entry-meta {
 
 	.attachment .image-navigation,
 	.attachment .entry-attachment .attachment {
-		/*max-width: 700px;*/
 		padding: 0;
 		width: 100%;
 	}
