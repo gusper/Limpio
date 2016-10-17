@@ -94,7 +94,7 @@ html {
 
 body {
 	color: #555;
-	line-height: 1.25;
+	line-height: 1.45;
 	margin: 0;
 }
 
@@ -1023,9 +1023,10 @@ ul.nav-menu li:hover > ul,
 
 .entry-thumbnail img {
 	display: block;
-	margin: -10px 30px 30px;
+	margin: -5px 30px 30px;
 	float: right;
 	max-width: 10%;
+	min-width: 30px;
 }
 
 .entry-headline {
@@ -2851,7 +2852,7 @@ footer.entry-meta {
 	.entry-thumbnail img {
 		float: right;
 		display: block;
-		margin: -20px 5px 5px 5px;
+		margin: -5px 5px 5px 5px;
 	}
 
 	.entry-headline {
