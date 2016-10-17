@@ -1015,7 +1015,7 @@ ul.nav-menu li:hover > ul,
 	display: block;
 	margin: -10px 30px 30px;
 	float: right;
-	max-width: 100px;
+	max-width: 10%;
 }
 
 .entry-headline {
@@ -2838,7 +2838,6 @@ footer.entry-meta {
 		float: right;
 		display: block;
 		margin: -20px 5px 5px 5px;
-		max-width: 20%;
 	}
 
 	.entry-headline {
