@@ -53,49 +53,4 @@ function lc_infinite_scroll_credit(){
  return $content;
 }
 
-/**
- * Return the Google font stylesheet URL, if available.
- *
- * The use of Source Sans Pro and Bitter by default is localized. For languages
- * that use characters not supported by the font, the font can be disabled.
- *
- * @since Twenty Thirteen 1.0
- *
- * @return string Font stylesheet or empty string if disabled.
- */
-// function twentythirteen_fonts_url() {
-// 	$fonts_url = '';
-
-// 	/* Translators: If there are characters in your language that are not
-// 	 * supported by Source Sans Pro, translate this to 'off'. Do not translate
-// 	 * into your own language.
-// 	 */
-// 	$source_sans_pro = _x( 'off', 'Source Sans Pro font: on or off', 'twentythirteen' );
-
-// 	/* Translators: If there are characters in your language that are not
-// 	 * supported by Bitter, translate this to 'off'. Do not translate into your
-// 	 * own language.
-// 	 */
-// 	$bitter = _x( 'off', 'Bitter font: on or off', 'twentythirteen' );
-
-// 	if ( 'off' !== $source_sans_pro || 'off' !== $bitter ) {
-// 		$font_families = array();
-
-// 		if ( 'off' !== $source_sans_pro )
-// 			$font_families[] = 'Source Sans Pro:300,400,700,300italic,400italic,700italic';
-
-// 		if ( 'off' !== $bitter )
-// 			$font_families[] = 'Bitter:400,700';
-
-// 		$query_args = array(
-// 			'family' => urlencode( implode( '|', $font_families ) ),
-// 			'subset' => urlencode( 'latin,latin-ext' ),
-// 		);
-// 		$fonts_url = add_query_arg( $query_args, "//fonts.googleapis.com/css" );
-// 	}
-
-// 	return $fonts_url;
-// }
-
-
 ?>
