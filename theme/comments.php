@@ -43,8 +43,8 @@ if ( post_password_required() )
 		?>
 		<nav class="navigation comment-navigation" role="navigation">
 			<h1 class="screen-reader-text section-heading"><?php _e( 'Comment navigation', 'twentythirteen' ); ?></h1>
-			<div class="nav-previous"><?php previous_comments_link( __( '&larr; Older Comments', 'twentythirteen' ) ); ?></div>
-			<div class="nav-next"><?php next_comments_link( __( 'Newer Comments &rarr;', 'twentythirteen' ) ); ?></div>
+			<div class="nav-previous"><?php previous_comments_link( __( '&larr; Older comments', 'twentythirteen' ) ); ?></div>
+			<div class="nav-next"><?php next_comments_link( __( 'Newer comments &rarr;', 'twentythirteen' ) ); ?></div>
 		</nav><!-- .comment-navigation -->
 		<?php endif; // Check for comment navigation ?>
 
