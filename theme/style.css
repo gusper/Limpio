@@ -86,7 +86,7 @@ audio:not([controls]) {
 
 html {
 	font-family: "Segoe UI", "Source Sans Pro", Helvetica, sans-serif;
-	font-size: 100%;
+	font-size: 125%;
 	overflow-y: scroll;
 	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust: 100%;
@@ -1027,7 +1027,7 @@ ul.nav-menu li:hover > ul,
 	display: block;
 	margin: -5px 30px 30px;
 	float: right;
-	max-width: 10%;
+	max-width: 20%;
 	min-width: 30px;
 }
 
